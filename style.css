@@ -1,0 +1,57 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    font-size: 3rem;
+    margin: 0 .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    transition: opacity .3s ease-in-out;
+}
+
+button:hover{
+    opacity: 75%;
+}
+
+#Rock{
+    background-color: red;
+}
+
+#Paper{
+    background-color: #2196f3;
+}
+
+#Scissors{
+    background-color: green;
+}
+
+#user-score{
+    color: green;
+}
+
+#computer-score{
+    color: blueviolet;
+}
